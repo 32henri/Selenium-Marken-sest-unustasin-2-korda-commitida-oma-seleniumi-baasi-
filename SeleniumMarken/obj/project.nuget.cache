@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1RKeGUopqnct+Eu+B3M6//BA6jevkLfvm0BMPtbz3QsyAgaTVqNsrZGLteAP+whDdwbyGXhpygdWUor2lviEmg==",
+  "dgSpecHash": "W2riwpbddXgaSFpStNjxEKO6yRGSB7CUbj6gwywlxGDisOo/S/X0Towdpkpk7MWiqfwG3NAJUGWK815pCDRl/w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\opilane\\source\\repos\\Selenium-Marken-sest-unustasin-2-korda-commitida-oma-seleniumi-baasi-\\SeleniumMarken\\SeleniumMarken.csproj",
+  "projectFilePath": "C:\\Users\\opilane\\Source\\repos\\Selenium-Marken-sest-unustasin-2-korda-commitida-oma-seleniumi-baasi-\\SeleniumMarken\\SeleniumMarken.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\opilane\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SeleniumMarken")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3633c04c7f1b777b192d1a0773a2c83216df2d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc92105830b16dfb8da0c75a09de106fcff6b95f")]
 [assembly: System.Reflection.AssemblyProductAttribute("SeleniumMarken")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SeleniumMarken")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

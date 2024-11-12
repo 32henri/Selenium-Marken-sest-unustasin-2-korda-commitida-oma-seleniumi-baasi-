@@ -8,17 +8,18 @@ namespace SeleniumMarken
     {
         static void Main(string[] args)
         {
-            //TestClick(); // Working/Pass
-            //TestDouubleClick(); // Working/Pass
-            //TestHiddenLayers(); // Working/Pass
-            //TestClienntDelay(); // Working/Pass
-            //Testloaddelays();  //Working/Pass
-            //TestUpload();  //Working/Pass
-            //TestHidingButton(); //Working/Pass
+            TestClick(); // Working/Pass
+            TestDouubleClick(); // Working/Pass
+            TestHiddenLayers(); // Working/Pass
+            TestClienntDelay(); // Working/Pass
+            Testloaddelays();  //Working/Pass
+            TestUpload();  //Working/Pass
+            TestHidingButton(); //Working/Pass
 
         }
 
-        private static void TestClick()
+        [Test]
+        public static void TestClick()
         {
             string binaryLocation = "C:\\Users\\opilane\\source\\repos\\FFP\\FirefoxPortable\\App\\Firefox64\\Firefox.exe";
 
@@ -32,7 +33,8 @@ namespace SeleniumMarken
             element.Click();
         }
 
-        private static void TestDouubleClick()
+        [Test]
+        public static void TestDouubleClick()
         {
             string binaryLocation = "C:\\Users\\opilane\\source\\repos\\FFP\\FirefoxPortable\\App\\Firefox64\\Firefox.exe";
 
@@ -48,7 +50,8 @@ namespace SeleniumMarken
 
         }
 
-        private static void TestHiddenLayers()
+        [Test]
+        public static void TestHiddenLayers()
         {
             string binaryLocation = "C:\\Users\\opilane\\source\\repos\\FFP\\FirefoxPortable\\App\\Firefox64\\Firefox.exe";
 
@@ -62,7 +65,8 @@ namespace SeleniumMarken
             element.Click();
         }
 
-        private static void TestClienntDelay()
+        [Test]
+        public static void TestClienntDelay()
         {
             string binaryLocation = "C:\\Users\\opilane\\source\\repos\\FFP\\FirefoxPortable\\App\\Firefox64\\Firefox.exe";
 
@@ -79,7 +83,8 @@ namespace SeleniumMarken
             p.Click();
         }
 
-        private static void Testloaddelays()
+        [Test]
+        public static void Testloaddelays()
         {
             string binaryLocation = "C:\\Users\\opilane\\source\\repos\\FFP\\FirefoxPortable\\App\\Firefox64\\Firefox.exe";
 
@@ -93,7 +98,8 @@ namespace SeleniumMarken
             element.Click();
         }
 
-        private static void TestUpload()
+        [Test]
+        public static void TestUpload()
         {
             string binaryLocation = "C:\\Users\\opilane\\source\\repos\\FFP\\FirefoxPortable\\App\\Firefox64\\Firefox.exe";
 
@@ -109,7 +115,8 @@ namespace SeleniumMarken
 
         }
 
-        private static void TestHidingButton()
+        [Test]
+        public static void TestHidingButton()
         {
             string binaryLocation = "C:\\Users\\opilane\\source\\repos\\FFP\\FirefoxPortable\\App\\Firefox64\\Firefox.exe";
 
