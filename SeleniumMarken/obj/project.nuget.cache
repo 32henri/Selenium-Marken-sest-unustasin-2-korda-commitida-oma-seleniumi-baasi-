@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "W2riwpbddXgaSFpStNjxEKO6yRGSB7CUbj6gwywlxGDisOo/S/X0Towdpkpk7MWiqfwG3NAJUGWK815pCDRl/w==",
+  "dgSpecHash": "IMoqi65ytwtWeJaFjqedAaPpVZQWCnmLadPAtoH1XOhRuIwcJqn4V145S4XgFmsYh2xSp8yCTNtVIL4Qr/gDPQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\opilane\\Source\\repos\\Selenium-Marken-sest-unustasin-2-korda-commitida-oma-seleniumi-baasi-\\SeleniumMarken\\SeleniumMarken.csproj",
   "expectedPackageFiles": [
@@ -16,8 +16,8 @@
     "C:\\Users\\opilane\\.nuget\\packages\\nunit\\3.14.0\\nunit.3.14.0.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\nunit.analyzers\\3.9.0\\nunit.analyzers.3.9.0.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512",
-    "C:\\Users\\opilane\\.nuget\\packages\\selenium.support\\4.25.0\\selenium.support.4.25.0.nupkg.sha512",
-    "C:\\Users\\opilane\\.nuget\\packages\\selenium.webdriver\\4.25.0\\selenium.webdriver.4.25.0.nupkg.sha512",
+    "C:\\Users\\opilane\\.nuget\\packages\\selenium.support\\4.26.1\\selenium.support.4.26.1.nupkg.sha512",
+    "C:\\Users\\opilane\\.nuget\\packages\\selenium.webdriver\\4.26.1\\selenium.webdriver.4.26.1.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
   "logs": []

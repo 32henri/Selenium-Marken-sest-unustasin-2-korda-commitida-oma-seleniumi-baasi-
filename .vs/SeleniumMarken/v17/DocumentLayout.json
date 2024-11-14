@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\opilane\\Source\\repos\\Selenium-Marken-sest-unustasin-2-korda-commitida-oma-seleniumi-baasi-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A649BA51-054E-4D1C-ABBD-D78353975C98}|SeleniumMarken\\SeleniumMarken.csproj|c:\\users\\opilane\\source\\repos\\selenium-marken-sest-unustasin-2-korda-commitida-oma-seleniumi-baasi-\\seleniummarken\\secondtestcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A649BA51-054E-4D1C-ABBD-D78353975C98}|SeleniumMarken\\SeleniumMarken.csproj|solutionrelative:seleniummarken\\secondtestcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A649BA51-054E-4D1C-ABBD-D78353975C98}|SeleniumMarken\\SeleniumMarken.csproj|c:\\users\\opilane\\source\\repos\\selenium-marken-sest-unustasin-2-korda-commitida-oma-seleniumi-baasi-\\seleniummarken\\firsttestcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A649BA51-054E-4D1C-ABBD-D78353975C98}|SeleniumMarken\\SeleniumMarken.csproj|C:\\Users\\opilane\\Source\\repos\\Selenium-Marken-sest-unustasin-2-korda-commitida-oma-seleniumi-baasi-\\seleniummarken\\firsttestcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A649BA51-054E-4D1C-ABBD-D78353975C98}|SeleniumMarken\\SeleniumMarken.csproj|solutionrelative:seleniummarken\\firsttestcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A649BA51-054E-4D1C-ABBD-D78353975C98}|SeleniumMarken\\SeleniumMarken.csproj|C:\\Users\\opilane\\Source\\repos\\Selenium-Marken-sest-unustasin-2-korda-commitida-oma-seleniumi-baasi-\\seleniummarken\\seleniummarken.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A649BA51-054E-4D1C-ABBD-D78353975C98}|SeleniumMarken\\SeleniumMarken.csproj|solutionrelative:seleniummarken\\seleniummarken.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A649BA51-054E-4D1C-ABBD-D78353975C98}|SeleniumMarken\\SeleniumMarken.csproj|C:\\Users\\opilane\\Source\\repos\\Selenium-Marken-sest-unustasin-2-korda-commitida-oma-seleniumi-baasi-\\seleniummarken\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A649BA51-054E-4D1C-ABBD-D78353975C98}|SeleniumMarken\\SeleniumMarken.csproj|solutionrelative:seleniummarken\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A649BA51-054E-4D1C-ABBD-D78353975C98}|SeleniumMarken\\SeleniumMarken.csproj|C:\\Users\\opilane\\Source\\repos\\Selenium-Marken-sest-unustasin-2-korda-commitida-oma-seleniumi-baasi-\\seleniummarken\\seleniummarken.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A649BA51-054E-4D1C-ABBD-D78353975C98}|SeleniumMarken\\SeleniumMarken.csproj|solutionrelative:seleniummarken\\seleniummarken.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,19 +50,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SecondTestCase.cs",
-              "DocumentMoniker": "C:\\Users\\opilane\\Source\\repos\\Selenium-Marken-sest-unustasin-2-korda-commitida-oma-seleniumi-baasi-\\SeleniumMarken\\SecondTestCase.cs",
-              "RelativeDocumentMoniker": "SeleniumMarken\\SecondTestCase.cs",
-              "ToolTip": "C:\\Users\\opilane\\Source\\repos\\Selenium-Marken-sest-unustasin-2-korda-commitida-oma-seleniumi-baasi-\\SeleniumMarken\\SecondTestCase.cs",
-              "RelativeToolTip": "SeleniumMarken\\SecondTestCase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T08:09:54.804Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "SeleniumMarken.csproj",
               "DocumentMoniker": "C:\\Users\\opilane\\Source\\repos\\Selenium-Marken-sest-unustasin-2-korda-commitida-oma-seleniumi-baasi-\\SeleniumMarken\\SeleniumMarken.csproj",
@@ -75,24 +58,25 @@
               "RelativeToolTip": "SeleniumMarken\\SeleniumMarken.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-09T06:51:06.458Z"
+              "WhenOpened": "2024-10-09T06:51:06.458Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FirstTestCase.cs",
               "DocumentMoniker": "C:\\Users\\opilane\\Source\\repos\\Selenium-Marken-sest-unustasin-2-korda-commitida-oma-seleniumi-baasi-\\SeleniumMarken\\FirstTestCase.cs",
               "RelativeDocumentMoniker": "SeleniumMarken\\FirstTestCase.cs",
               "ToolTip": "C:\\Users\\opilane\\Source\\repos\\Selenium-Marken-sest-unustasin-2-korda-commitida-oma-seleniumi-baasi-\\SeleniumMarken\\FirstTestCase.cs",
               "RelativeToolTip": "SeleniumMarken\\FirstTestCase.cs",
-              "ViewState": "AQIAAFsAAAAAAAAAAAAmwIUAAAAAAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAwCMAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T06:45:21.904Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\opilane\\Source\\repos\\Selenium-Marken-sest-unustasin-2-korda-commitida-oma-seleniumi-baasi-\\SeleniumMarken\\UnitTest1.cs",
               "RelativeDocumentMoniker": "SeleniumMarken\\UnitTest1.cs",
@@ -100,7 +84,8 @@
               "RelativeToolTip": "SeleniumMarken\\UnitTest1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T05:58:47.628Z"
+              "WhenOpened": "2024-10-09T05:58:47.628Z",
+              "EditorCaption": ""
             }
           ]
         },

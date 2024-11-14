@@ -1,6 +1,7 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Interactions;
+using OpenQA.Selenium.Support.UI;
 
 namespace SeleniumMarken
 {
@@ -8,6 +9,11 @@ namespace SeleniumMarken
     {
         static void Main(string[] args)
         {
+            AutopoodTest();
+
+
+
+
             //TestClick(); // Working/Pass
             //TestDouubleClick(); // Working/Pass
             //TestHiddenLayers(); // Working/Pass
@@ -19,6 +25,46 @@ namespace SeleniumMarken
         }
 
         [Test]
+
+        public static void AutopoodTest()
+        {
+            string binaryLocation = "C:\\Users\\opilane\\source\\repos\\FFP\\FirefoxPortable\\App\\Firefox64\\Firefox.exe";
+
+            FirefoxOptions options = new FirefoxOptions();
+            options.BrowserExecutableLocation = binaryLocation;
+
+            IWebDriver driver = new FirefoxDriver("C:\\Users\\opilane\\Source\\repos\\Selenium-Marken-sest-unustasin-2-korda-commitida-oma-seleniumi-baasi-\\SeleniumMarken\\drivers", options);
+
+            try
+            {
+                driver.Url = "http://yourloginpage.com";
+
+                WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+
+                IWebElement usernameField = wait.Until(driver => driver.FindElement(By.Id("username")));
+                usernameField.SendKeys("testuser");
+
+                IWebElement passwordField = wait.Until(driver => driver.FindElement(By.Id("password")));
+                passwordField.SendKeys("TestPassword123");
+                IWebElement loginButton = driver.FindElement(By.CssSelector("input[type='submit'][name='submit']"));
+                loginButton.Click();
+
+                wait.Until(driver => driver.Url.Contains("dashboard"));
+
+                Console.WriteLine("Login successful!");
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error during login test: {ex.Message}");
+            }
+            finally
+            {
+                driver.Quit();
+            }
+
+        }
+
         public static void TestClick()
         {
             string binaryLocation = "C:\\Users\\opilane\\source\\repos\\FFP\\FirefoxPortable\\App\\Firefox64\\Firefox.exe";
