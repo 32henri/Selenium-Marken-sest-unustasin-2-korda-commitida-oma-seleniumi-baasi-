@@ -9,7 +9,7 @@ namespace SeleniumMarken
     {
         static void Main(string[] args)
         {
-            AutopoodTest();
+            AutopoodTestLoginFail(); //Working/Pass
 
 
 
@@ -26,7 +26,7 @@ namespace SeleniumMarken
 
         [Test]
 
-        public static void AutopoodTest()
+        public static void AutopoodTestLoginFail()
         {
             string binaryLocation = "C:\\Users\\opilane\\source\\repos\\FFP\\FirefoxPortable\\App\\Firefox64\\Firefox.exe";
 
@@ -35,33 +35,22 @@ namespace SeleniumMarken
 
             IWebDriver driver = new FirefoxDriver("C:\\Users\\opilane\\Source\\repos\\Selenium-Marken-sest-unustasin-2-korda-commitida-oma-seleniumi-baasi-\\SeleniumMarken\\drivers", options);
 
-            try
-            {
-                driver.Url = "http://yourloginpage.com";
+                driver.Url = "http://localhost:5115/";
 
                 WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
 
                 IWebElement usernameField = wait.Until(driver => driver.FindElement(By.Id("username")));
-                usernameField.SendKeys("testuser");
+                usernameField.SendKeys("nimi");
 
                 IWebElement passwordField = wait.Until(driver => driver.FindElement(By.Id("password")));
-                passwordField.SendKeys("TestPassword123");
+                passwordField.SendKeys("parool");
                 IWebElement loginButton = driver.FindElement(By.CssSelector("input[type='submit'][name='submit']"));
                 loginButton.Click();
 
-                wait.Until(driver => driver.Url.Contains("dashboard"));
+                wait.Until(driver => driver.Url.Contains("http://localhost:5115/Login/Verify"));
 
                 Console.WriteLine("Login successful!");
 
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error during login test: {ex.Message}");
-            }
-            finally
-            {
-                driver.Quit();
-            }
 
         }
 
@@ -72,7 +61,7 @@ namespace SeleniumMarken
             FirefoxOptions options = new FirefoxOptions();
             options.BrowserExecutableLocation = binaryLocation;
 
-            IWebDriver driver = new FirefoxDriver("C:\\Users\\opilane\\source\\repos\\SeleniumMarken\\SeleniumMarken\\drivers", options);
+            IWebDriver driver = new FirefoxDriver("C:\\Users\\opilane\\source\\repos\\Selenium-Marken-sest-unustasin-2-korda-commitida-oma-seleniumi-baasi-\\SeleniumMarken\\drivers", options);
             driver.Url = "http://www.uitestingplayground.com/click";
 
             IWebElement element = driver.FindElement(By.Id("badButton"));
