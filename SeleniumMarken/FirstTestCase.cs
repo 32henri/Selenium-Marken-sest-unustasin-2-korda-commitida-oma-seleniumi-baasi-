@@ -9,7 +9,8 @@ namespace SeleniumMarken
     {
         static void Main(string[] args)
         {
-            AutopoodTestLoginFail(); //Working/Pass
+            //AutopoodTestLoginFail(); //Working/Pass
+            //AutopoodTestLoginUser(); //Working/Pass
 
 
 
@@ -53,6 +54,38 @@ namespace SeleniumMarken
 
 
         }
+
+        [Test]
+
+        public static void AutopoodTestLoginUser()
+        {
+            string binaryLocation = "C:\\Users\\opilane\\source\\repos\\FFP\\FirefoxPortable\\App\\Firefox64\\Firefox.exe";
+
+            FirefoxOptions options = new FirefoxOptions();
+            options.BrowserExecutableLocation = binaryLocation;
+
+            IWebDriver driver = new FirefoxDriver("C:\\Users\\opilane\\Source\\repos\\Selenium-Marken-sest-unustasin-2-korda-commitida-oma-seleniumi-baasi-\\SeleniumMarken\\drivers", options);
+
+            driver.Url = "http://localhost:5115/";
+
+            WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+
+            IWebElement usernameField = wait.Until(driver => driver.FindElement(By.Id("username")));
+            usernameField.SendKeys("Henri");
+
+            IWebElement passwordField = wait.Until(driver => driver.FindElement(By.Id("password")));
+            passwordField.SendKeys("Henri");
+            IWebElement loginButton = driver.FindElement(By.CssSelector("input[type='submit'][name='submit']"));
+            loginButton.Click();
+
+            wait.Until(driver => driver.Url.Contains("http://localhost:5115/Login/Verify"));
+
+            Console.WriteLine("Login successful!");
+
+
+        }
+
+        [Test]
 
         public static void TestClick()
         {
