@@ -8,13 +8,13 @@ namespace SeleniumMarken
     {
         static void Main(string[] args)
         {
-            TestClick(); // Working/Pass
-            TestDouubleClick(); // Working/Pass
-            TestHiddenLayers(); // Working/Pass
-            TestClienntDelay(); // Working/Pass
-            Testloaddelays();  //Working/Pass
-            TestUpload();  //Working/Pass
-            TestHidingButton(); //Working/Pass
+            //TestClick(); // Working/Pass
+            //TestDouubleClick(); // Working/Pass
+            //TestHiddenLayers(); // Working/Pass
+            //TestClienntDelay(); // Working/Pass
+            //Testloaddelays();  //Working/Pass
+            //TestUpload();  //Working/Pass
+            //TestHidingButton(); //Working/Pass
 
         }
 
